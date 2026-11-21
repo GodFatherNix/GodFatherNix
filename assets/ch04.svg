@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 115" width="100%" role="img" aria-label="Chapter 04 — THE SIGNAL: live telemetry from github">
+  <defs>
+    <linearGradient id="chBg4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14090B"/>
+      <stop offset="50%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#120C0F"/>
+    </linearGradient>
+
+    <filter id="glow4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', Consolas, 'Courier New', monospace; }
+      .sans { font-family: 'Segoe UI', 'DejaVu Sans', Arial, Helvetica, sans-serif; }
+
+      .pulse-line {
+        stroke-dasharray: 85 1115;
+        animation: lineRun4 2.9s linear infinite;
+      }
+      @keyframes lineRun4 {
+        from { stroke-dashoffset: 1200; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      .eq-1 { animation: eqA 0.7s ease-in-out 0s infinite alternate; }
+      .eq-2 { animation: eqA 0.55s ease-in-out 0.15s infinite alternate; }
+      .eq-3 { animation: eqA 0.8s ease-in-out 0.3s infinite alternate; }
+      .eq-4 { animation: eqA 0.5s ease-in-out 0.1s infinite alternate; }
+      .eq-5 { animation: eqA 0.65s ease-in-out 0.25s infinite alternate; }
+      .eq-6 { animation: eqA 0.75s ease-in-out 0.05s infinite alternate; }
+      @keyframes eqA {
+        from { transform: scaleY(0.25); }
+        to { transform: scaleY(1); }
+      }
+
+      .rx-lock { animation: rxB 1.4s steps(2, end) infinite; }
+      @keyframes rxB {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+    </style>
+  </defs>
+
+  <rect x="6" y="6" width="1188" height="103" rx="12" fill="url(#chBg4)" stroke="#381A1E" stroke-width="1.5"/>
+
+  <!-- Left Chapter Badge -->
+  <g transform="translate(24, 21)">
+    <rect x="0" y="0" width="72" height="72" rx="10" fill="#A21517"/>
+    <circle cx="36" cy="36" r="29" fill="none" stroke="#E5EE4E" stroke-width="1" stroke-dasharray="14 6" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="360 36 36" to="0 36 36" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <text x="36" y="47" text-anchor="middle" class="mono" font-size="30" font-weight="800" fill="#FFFFFF">04</text>
+  </g>
+
+  <path d="M 96 57 L 124 57 L 136 45 L 152 45" fill="none" stroke="#A21517" stroke-width="2"/>
+  <circle cx="152" cy="45" r="3.5" fill="#ECBDD8" filter="url(#glow4)"/>
+
+  <!-- Titles -->
+  <g transform="translate(174, 42)">
+    <text x="0" y="0" class="mono" font-size="11.5" fill="#ECBDD8" letter-spacing="1.8">CHAPTER 04 // TELEMETRY</text>
+    <text x="0" y="30" class="sans" font-size="25" font-weight="800" fill="#FFFFFF" letter-spacing="0.6">THE SIGNAL</text>
+    <text x="310" y="29" class="mono" font-size="13" fill="#A0A0A8" letter-spacing="0.3">// live telemetry from github</text>
+  </g>
+
+  <!-- Right Side: Animated RF Spectrum Equalizer + Radar -->
+  <g transform="translate(932, 18)">
+    <rect x="0" y="0" width="242" height="78" rx="8" fill="#0F0F13" stroke="#2D1E22" stroke-width="1.2"/>
+
+    <g transform="translate(38, 39)">
+      <circle cx="0" cy="0" r="22" fill="#140C0E" stroke="#A21517" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="13" fill="none" stroke="#361E22" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="-21" stroke="#E5EE4E" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="2.6s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="0" cy="0" r="3" fill="#ECBDD8"/>
+    </g>
+
+    <g transform="translate(76, 18)">
+      <rect x="0"  y="12" width="6" height="32" rx="1.5" fill="#A21517" style="transform-box: fill-box; transform-origin: bottom;" class="eq-1"/>
+      <rect x="10" y="6"  width="6" height="38" rx="1.5" fill="#ECBDD8" style="transform-box: fill-box; transform-origin: bottom;" class="eq-2"/>
+      <rect x="20" y="2"  width="6" height="42" rx="1.5" fill="#E5EE4E" style="transform-box: fill-box; transform-origin: bottom;" class="eq-3"/>
+      <rect x="30" y="10" width="6" height="34" rx="1.5" fill="#ECBDD8" style="transform-box: fill-box; transform-origin: bottom;" class="eq-4"/>
+      <rect x="40" y="4"  width="6" height="40" rx="1.5" fill="#A21517" style="transform-box: fill-box; transform-origin: bottom;" class="eq-5"/>
+      <rect x="50" y="14" width="6" height="30" rx="1.5" fill="#E5EE4E" style="transform-box: fill-box; transform-origin: bottom;" class="eq-6"/>
+    </g>
+
+    <text x="148" y="34" class="mono" font-size="10" fill="#A0A0A8">RF_STREAM</text>
+    <text x="148" y="54" class="mono rx-lock" font-size="11.5" font-weight="700" fill="#E5EE4E">● RX LOCKED</text>
+  </g>
+
+  <!-- Bottom Animated Signal Line -->
+  <line x1="24" y1="103" x2="1176" y2="103" stroke="#30181B" stroke-width="2"/>
+  <line x1="24" y1="103" x2="1176" y2="103" stroke="#ECBDD8" stroke-width="2.4" class="pulse-line" filter="url(#glow4)"/>
+</svg>
