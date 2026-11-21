@@ -1,18 +1,29 @@
-# 💫 About Me:
-# 👋 Hey, I’m KANISHK<br><br>- 🛠️ Currently learning electronics, embedded systems, and PCB design<br>- 📦 Uploading my projects, experiments, and working circuits here<br>- ⚡ I like practical things more than theory — if it doesn’t run, I don’t care<br>- 🧠 Always leveling up, one project at a time<br><br>🔧 Tools & Tech I Work With:<br>- PCB Design: EasyEDA, KiCad<br>- Microcontrollers: Arduino, basic embedded logic<br>- Hardware: Sensors, transistors, buzzers, relays, motors<br>- Others: Git, basic Python/C when needed<br><br>🧪 My Projects (more coming soon):<br>- 💥 Intruder Alarm System – basic motion-triggered buzzer alert<br>- 🤖 ...and a few experiments with automation and control circuits<br><br>> Everything here is part of the journey — raw, real, and mine.<br>
+<p align="center">
+  <a href="https://github.com/GodFatherNix"><img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0A0A0A,100:A21517&height=220&section=header&text=KANISHK&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=42&desc=Electronics%20%C2%B7%20Embedded%20Systems%20%C2%B7%20PCB%20Design&descSize=22&descAlignY=64" width="100%" alt="Kanishk - Hardware & Embedded Systems" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=32&duration=2000&pause=1600&color=E5EE4E&background=0A0A0A&center=true&vCenter=true&width=854&height=64&lines=%3E+practical+hardware+%3E+theory.;%3E+designing+pcbs+%26+embedded+logic.;%3E+leveling+up%2C+one+circuit+at+a+time." width="100%" alt="Typing text" />
+</p>
 
+<p align="center">
+  <a href="mailto:kanishkj09@gmail.com"><img src="https://img.shields.io/badge/Email-A21517?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://instagram.com/nisoska_san"><img src="https://img.shields.io/badge/Instagram-A21517?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://stackoverflow.com/users/GOD_OF_CODE"><img src="https://img.shields.io/badge/Stack_Overflow-A21517?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" /></a>
+  <a href="https://github.com/GodFatherNix"><img src="https://img.shields.io/badge/GitHub-A21517?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@nisoska_san) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/GOD_OF_CODE) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kanishkj09@gmail.com) 
+<p align="center">
+  <img src="https://img.shields.io/badge/FOCUS-Embedded_Systems-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Embedded Systems" />
+  <img src="https://img.shields.io/badge/TOOLS-KiCad_&_EasyEDA-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="PCB Design" />
+  <img src="https://img.shields.io/badge/MINDSET-Practical_First-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Practical First" />
+</p>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=GodFatherNix&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=GodFatherNix&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=GodFatherNix&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## ⚡ about
 
----
-[![](https://visitcount.itsvg.in/api?id=GodFatherNix&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+```python
+me = {
+    "does": "prototyping electronics, circuits & embedded logic",
+    "focus": "embedded systems, microcontroller interfacing & PCB design",
+    "tools": ["Arduino", "KiCad", "EasyEDA", "Sensors", "Relays"],
+    "speaks": ["C", "C++", "Python"],
+    "learning": "advanced embedded architecture & multi-layer PCB routing",
+    "philosophy": "if it doesn't run in hardware, it doesn't count"
+}
