@@ -1,18 +1,22 @@
 <!--
-  KANISHK // GodFatherNix — profile README (cinematic edition)
-  Animated scenes live in ./assets/*.svg inside this same repo.
+  KANISHK // GodFatherNix — profile README (standalone edition)
+  Single file. All visuals are rendered by external services.
 -->
 
 <!-- ═══════════════ SCENE 00 // OPENING ═══════════════ -->
 
 <p align="center">
   <a href="https://github.com/GodFatherNix">
-    <img src="./assets/hero.svg" width="100%" alt="Kanishk — Electronics, Embedded Systems, and PCB Design" />
+    <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0A0A0A,50:3a0809,100:A21517&height=260&section=header&text=KANISHK&fontSize=90&fontColor=FFFFFF&animation=twinkling&fontAlignY=40&desc=ELECTRONICS%20%C2%B7%20EMBEDDED%20SYSTEMS%20%C2%B7%20PCB%20DESIGN&descSize=20&descAlignY=62" width="100%" alt="Kanishk — Electronics, Embedded Systems, and PCB Design" />
   </a>
 </p>
 
 <p align="center">
-  <img src="./assets/boot.svg" width="100%" alt="Boot sequence: loading electronics, embedded systems and PCB design modules. Rule: if it doesn't run, I don't care." />
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=24&duration=900&pause=400&color=E5EE4E&background=0A0A0AFF&multiline=true&repeat=false&width=854&height=230&lines=%3E%20KANISHK-OS%20v2.6%20%3A%3A%20bootloader;%5B%20OK%20%5D%20power%20rails%20......%205V%20%2F%203V3%20stable;%5B%20OK%20%5D%20loading%20electronics.ko;%5B%20OK%20%5D%20loading%20embedded_systems.ko;%5B%20OK%20%5D%20loading%20pcb_design.ko;%5BWARN%5D%20circuit%20failed%20first%20test%20-%20debugging;%3E%20rule%3A%20If%20it%20doesn't%20run%2C%20I%20don't%20care." width="100%" alt="Boot sequence" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=34&duration=2000&pause=1600&color=E5EE4E&background=0A0A0A&center=true&vCenter=true&width=854&height=64&lines=%3E%20Learning%20embedded%20systems%3B%3E%20Designing%20PCBs%3B%3E%20If%20it%20doesn%27t%20run%2C%20I%20don%27t%20care." width="100%" alt="Learning embedded systems. Designing PCBs. If it doesn't run, I don't care." />
 </p>
 
 <p align="center">
@@ -33,7 +37,7 @@
 <!-- ═══════════════ CHAPTER 01 // THE ENGINEER ═══════════════ -->
 
 <p align="center">
-  <img src="./assets/ch01.svg" width="100%" alt="Chapter 01 — THE ENGINEER" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20ENGINEER&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2001%20%2F%2F%20who's%20behind%20the%20soldering%20iron&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 01 — THE ENGINEER" />
 </p>
 
 ```python
@@ -63,20 +67,18 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 02 // THE BUILDS ═══════════════ -->
 
 <p align="center">
-  <img src="./assets/ch02.svg" width="100%" alt="Chapter 02 — THE BUILDS" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20BUILDS&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2002%20%2F%2F%20circuits%20that%20actually%20run&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 02 — THE BUILDS" />
 </p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/alarm.svg" width="100%" alt="🚨 Intruder Alarm System — animated schematic" />
       <h3>🚨 Intruder Alarm System</h3>
       <sub><b>Motion detection · Buzzer alert</b></sub>
       <p>A simple alarm circuit that sounds a buzzer when it detects motion.</p>
       <p><code>Motion sensor</code> <code>Buzzer</code></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/automation.svg" width="100%" alt="🤖 Automation &amp; Control — animated schematic" />
       <h3>🤖 Automation &amp; Control</h3>
       <sub><b>Workbench experiments</b></sub>
       <p>Small experiments with automation and control circuits. More builds coming as I test them.</p>
@@ -95,7 +97,7 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 03 // THE ARSENAL ═══════════════ -->
 
 <p align="center">
-  <img src="./assets/ch03.svg" width="100%" alt="Chapter 03 — THE ARSENAL" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20ARSENAL&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2003%20%2F%2F%20tools%20%C2%B7%20languages%20%C2%B7%20software&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 03 — THE ARSENAL" />
 </p>
 
 <p align="center">
@@ -110,7 +112,7 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 04 // THE SIGNAL ═══════════════ -->
 
 <p align="center">
-  <img src="./assets/ch04.svg" width="100%" alt="Chapter 04 — THE SIGNAL" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20SIGNAL&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2004%20%2F%2F%20live%20telemetry%20from%20github&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 04 — THE SIGNAL" />
 </p>
 
 <details>
@@ -137,5 +139,5 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="End credits — One project at a time." />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A21517,100:0A0A0A&height=140&section=footer&text=One%20project%20at%20a%20time.&fontSize=30&fontColor=FFFFFF&fontAlignY=68&animation=twinkling" width="100%" alt="End credits — One project at a time." />
 </p>
