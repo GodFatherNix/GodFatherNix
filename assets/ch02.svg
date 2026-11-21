@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="144" viewBox="0 0 1200 144">
+<defs>
+  <pattern id="grid" width="40" height="28.8" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V28.8" fill="none" stroke="#2c1012" stroke-width="1"/></pattern>
+  <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#A21517" stop-opacity="0"/><stop offset=".8" stop-color="#A21517" stop-opacity=".35"/><stop offset="1" stop-color="#E5EE4E" stop-opacity=".8"/></linearGradient>
+  <linearGradient id="shield" x1="0" x2="1">
+    <stop offset="0" stop-color="#09090C" stop-opacity=".98"/>
+    <stop offset=".47" stop-color="#09090C" stop-opacity=".96"/>
+    <stop offset=".66" stop-color="#09090C" stop-opacity=".2"/>
+    <stop offset="1" stop-color="#09090C" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="c"><rect width="1200" height="144" rx="12"/></clipPath>
+  <clipPath id="wipe"><rect x="150" y="0" width="0" height="144"><animate attributeName="width" from="0" to="1040" begin=".15s" dur=".75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".25 .8 .25 1"/></rect></clipPath>
+</defs>
+<style>
+  .chTag{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:3px;fill:#ECBDD8}
+  .chNum{font:800 38px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;fill:#E5EE4E}
+  .lab{font:700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:4px;fill:#E5EE4E}
+  .ttl{font:800 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;letter-spacing:2px;fill:#FFFFFF}
+  .sub{font:600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:2.5px;fill:#ECBDD8}
+  .badge{opacity:0;animation:bIn .5s .05s ease-out forwards}
+  @keyframes bIn{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+  .sweep{animation:sw 4.5s 1s linear infinite}
+  @keyframes sw{from{transform:translateX(680px)}to{transform:translateX(1420px)}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="1200" height="144" fill="#0A0A0A"/>
+  <rect width="1200" height="144" fill="url(#grid)"/>
+  <path d="M0 72 L0 72 L10 77.2 L20 82.5 L30 87.4 L40 91.1 L50 93.1 L60 93 L70 90.5 L80 85.9 L90 79.5 L100 72 L110 64.2 L120 56.9 L130 51 L140 47.3 L150 46 L160 47.5 L170 51.4 L180 57.3 L190 64.4 L200 72 L210 79.1 L220 85.1 L230 89.3 L240 91.4 L250 91.3 L260 89.3 L270 85.8 L280 81.4 L290 76.6 L300 72 L310 68.1 L320 65.3 L330 63.6 L340 63 L350 63.5 L360 64.6 L370 66.3 L380 68.2 L390 70.2 L400 72 L410 73.6 L420 75.1 L430 76.2 L440 77.1 L450 77.6 L460 77.7 L470 77.3 L480 76.2 L490 74.4 L500 72 L510 69 L520 65.8 L530 62.6 L540 59.9 L550 58.2 L560 57.8 L570 59 L580 61.8 L590 66.3 L600 72 L610 78.3 L620 84.6 L630 90.1 L640 94.1 L650 96 L660 95.4 L670 92.3 L680 87 L690 80 L700 72 L710 64 L720 56.8 L730 51.2 L740 47.9 L750 47.2 L760 48.9 L770 53 L780 58.6 L790 65.2 L800 72 L810 78.1 L820 83.1 L830 86.3 L840 87.7 L850 87.4 L860 85.5 L870 82.6 L880 79.1 L890 75.4 L900 72 L910 69.2 L920 67.2 L930 66 L940 65.6 L950 65.8 L960 66.5 L970 67.6 L980 68.9 L990 70.4 L1000 72 L1010 73.7 L1020 75.4 L1030 77 L1040 78.5 L1050 79.5 L1060 79.8 L1070 79.3 L1080 77.9 L1090 75.4 L1100 72 L1110 67.9 L1120 63.6 L1130 59.5 L1140 56.2 L1150 54.2 L1160 54 L1170 55.8 L1180 59.7 L1190 65.2 L1200 72 L1210 79.3 L1220 86.3 L1230 92.1 L1240 96.1 L1250 97.7 L1260 96.6 L1270 93 L1280 87.3 L1290 80 L1300 72 L1310 64.2 L1320 57.6 L1330 52.6 L1340 49.9 L1350 49.6 L1360 51.6 L1370 55.5 L1380 60.6 L1390 66.3 L1400 72 L1410 77 L1420 80.7 L1430 83.1 L1440 84 L1450 83.5 L1460 82 L1470 79.7 L1480 77.1 L1490 74.4 L1500 72 L1510 70 L1520 68.5 L1530 67.5 L1540 66.9 L1550 66.8 L1560 67 L1570 67.7 L1580 68.7 L1590 70.2 L1600 72 L1610 74.2 L1620 76.6 L1630 79 L1640 81 L1650 82.5 L1660 82.9 L1670 82.2 L1680 80.1 L1690 76.6 L1700 72 L1710 66.7 L1720 61.2 L1730 56.3 L1740 52.6 L1750 50.6 L1760 50.7 L1770 53.2 L1780 57.9 L1790 64.4 L1800 72 L1810 79.9 L1820 87.2 L1830 93 L1840 96.7 L1850 97.9 L1860 96.4 L1870 92.5 L1880 86.6 L1890 79.5 L1900 72 L1910 64.9 L1920 59.1 L1930 55 L1940 53 L1950 53.1 L1960 55.1 L1970 58.5 L1980 62.9 L1990 67.6 L2000 72 L2010 75.7 L2020 78.5 L2030 80.1 L2040 80.7 L2050 80.2 L2060 79.1 L2070 77.5 L2080 75.7 L2090 73.8 L2100 72 L2110 70.4 L2120 68.9 L2130 67.7 L2140 66.8 L2150 66.2 L2160 66.1 L2170 66.6 L2180 67.7 L2190 69.5 L2200 72 L2210 75.1 L2220 78.4 L2230 81.7 L2240 84.4 L2250 86.2 L2260 86.6 L2270 85.4 L2280 82.4 L2290 77.8 L2300 72 L2310 65.5 L2320 59.2 L2330 53.6 L2340 49.6 L2350 47.8 L2360 48.4 L2370 51.5 L2380 56.9 L2390 64 L2400 72 L2410 80 L2420 87.2 L2430 92.7 L2440 95.9 L2450 96.6 L2460 94.8 L2470 90.8 L2480 85.2 L2490 78.7 L2500 72 L2510 66 L2520 61.2 L2530 58 L2540 56.6 L2550 57 L2560 58.8 L2570 61.7 L2580 65.2 L2590 68.7 L2600 72" fill="none" stroke="#D11E21" stroke-width="2.6" opacity=".95"><animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="3s" repeatCount="indefinite"/></path>
+  <rect class="sweep" x="-120" y="0" width="90" height="144" fill="url(#beam)" opacity=".4"/>
+  <!-- Solid-to-translucent left shield keeps heading 100% legible -->
+  <rect width="1200" height="144" fill="url(#shield)"/>
+  <!-- Framed chapter number badge -->
+  <g class="badge">
+    <rect x="26" y="26" width="94" height="92" rx="10" fill="#180608" stroke="#A21517" stroke-width="2"/>
+    <text x="73" y="54" text-anchor="middle" class="chTag">CH</text>
+    <text x="73" y="96" text-anchor="middle" class="chNum">02</text>
+    <rect x="136" y="30" width="4" height="84" rx="2" fill="#A21517"/>
+  </g>
+  <!-- Crisp heading & subtitle -->
+  <g clip-path="url(#wipe)">
+    <text x="158" y="45" class="lab">CHAPTER 02 //</text>
+    <text x="158" y="88" class="ttl">THE BUILDS</text>
+    <text x="158" y="116" class="sub">CIRCUITS THAT ACTUALLY RUN</text>
+  </g>
+  <line x1="150" y1="0" x2="150" y2="144" stroke="#E5EE4E" stroke-width="2.5"><animate attributeName="x1" from="150" to="1200" begin=".15s" dur=".75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".25 .8 .25 1"/><animate attributeName="x2" from="150" to="1200" begin=".15s" dur=".75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".25 .8 .25 1"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.2;.88;1" begin=".12s" dur=".85s" fill="freeze"/></line>
+</g>
+<rect x="1" y="1" width="1198" height="142" rx="12" fill="none" stroke="#A21517" stroke-opacity=".75" stroke-width="2"/>
+</svg>
