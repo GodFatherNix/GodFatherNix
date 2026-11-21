@@ -37,7 +37,7 @@
 <!-- ═══════════════ CHAPTER 01 // THE ENGINEER ═══════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20ENGINEER&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2001%20%2F%2F%20who's%20behind%20the%20soldering%20iron&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 01 — THE ENGINEER" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=120&section=header&text=THE%20ENGINEER&fontSize=36&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&desc=CHAPTER%2001%20%2F%2F%20who's%20behind%20the%20soldering%20iron&descSize=15&descAlign=50&descAlignY=73&animation=fadeIn" width="100%" alt="Chapter 01 — THE ENGINEER" />
 </p>
 
 ```python
@@ -67,7 +67,7 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 02 // THE BUILDS ═══════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20BUILDS&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2002%20%2F%2F%20circuits%20that%20actually%20run&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 02 — THE BUILDS" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=120&section=header&text=THE%20BUILDS&fontSize=36&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&desc=CHAPTER%2002%20%2F%2F%20circuits%20that%20actually%20run&descSize=15&descAlign=50&descAlignY=73&animation=fadeIn" width="100%" alt="Chapter 02 — THE BUILDS" />
 </p>
 
 <table>
@@ -97,7 +97,7 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 03 // THE ARSENAL ═══════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20ARSENAL&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2003%20%2F%2F%20tools%20%C2%B7%20languages%20%C2%B7%20software&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 03 — THE ARSENAL" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=120&section=header&text=THE%20ARSENAL&fontSize=36&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&desc=CHAPTER%2003%20%2F%2F%20tools%20%C2%B7%20languages%20%C2%B7%20software&descSize=15&descAlign=50&descAlignY=73&animation=fadeIn" width="100%" alt="Chapter 03 — THE ARSENAL" />
 </p>
 
 <p align="center">
@@ -112,7 +112,7 @@ I learn best by building a circuit, testing it, and figuring out why it didn't w
 <!-- ═══════════════ CHAPTER 04 // THE SIGNAL ═══════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=110&section=header&text=THE%20SIGNAL&fontSize=38&fontColor=FFFFFF&fontAlign=8&fontAlignY=42&desc=CHAPTER%2004%20%2F%2F%20live%20telemetry%20from%20github&descSize=16&descAlign=8&descAlignY=72&animation=fadeIn" width="100%" alt="Chapter 04 — THE SIGNAL" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,60:2a0607,100:A21517&height=120&section=header&text=THE%20SIGNAL&fontSize=36&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&desc=CHAPTER%2004%20%2F%2F%20live%20telemetry%20from%20github&descSize=15&descAlign=50&descAlignY=73&animation=fadeIn" width="100%" alt="Chapter 04 — THE SIGNAL" />
 </p>
 
 <details>
