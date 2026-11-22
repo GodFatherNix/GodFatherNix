@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="480" viewBox="0 0 1200 480">
+<defs>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="14"/></filter>
+  <linearGradient id="metal" x1="0" x2="1"><stop offset="0" stop-color="#6a6d78"/><stop offset=".28" stop-color="#f3f4f8"/><stop offset=".6" stop-color="#9da0ab"/><stop offset="1" stop-color="#4b4e58"/></linearGradient>
+  <linearGradient id="pawn" x1="0" x2="1"><stop offset="0" stop-color="#f4f5f9"/><stop offset=".55" stop-color="#c2c5cf"/><stop offset="1" stop-color="#70737e"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".07"/></pattern><radialGradient id="pool"><stop offset="0" stop-color="#E5EE4E" stop-opacity=".5"/><stop offset="1" stop-color="#E5EE4E" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#15161a"/><stop offset=".3" stop-color="#4a4c57"/><stop offset=".62" stop-color="#1d1e23"/><stop offset=".63" stop-color="#c9ccd6"/><stop offset=".8" stop-color="#c9ccd6"/><stop offset=".81" stop-color="#111"/></linearGradient>
+  <clipPath id="card"><rect width="1200" height="480" rx="14"/></clipPath>
+</defs>
+<style>
+  .k{font:700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:5px;fill:#E5EE4E}
+  .h{font:800 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;letter-spacing:1px;fill:#fff}
+  .s{font:600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:2px;fill:#ECBDD8}
+  .p{font:700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:2px}
+  .c{font:700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:2px}
+  .m{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:1.5px}
+  .w{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:1.5px;fill:#9da0ab}
+  .live{opacity:0;animation:live 4s linear infinite}
+  .idle{animation:idle 4s linear infinite}
+  @keyframes live{0%,49.99%{opacity:1}50%,100%{opacity:0}}
+  @keyframes idle{0%,49.99%{opacity:0}50%,100%{opacity:1}}
+  .blink{animation:blink .36s steps(1) infinite}
+  @keyframes blink{0%{opacity:1}50%{opacity:.2}}
+  .flow{fill:none;stroke:#E5EE4E;stroke-width:3;stroke-linecap:round;stroke-dasharray:5 13;animation:flow .6s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-18}}
+  .silk{font:700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:2px;fill:#7b7e8a}
+  .chip{font:800 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;letter-spacing:2px;fill:#c8f6fa}
+  .relay{font:800 17px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;letter-spacing:2px;fill:#fff}
+  .relay2{font:700 10px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;letter-spacing:1px;fill:#d6e8ff}</style>
+<g clip-path="url(#card)">
+<rect width="1200" height="480" fill="#0A0A0A"/>
+<rect width="1200" height="480" fill="url(#dots)"/>
+
+<ellipse cx="800" cy="412" rx="340" ry="44" fill="#A21517" opacity=".3" filter="url(#blur)"/>
+<!-- PCB -->
+<g stroke="#D11E21" stroke-opacity="0.9" stroke-width="1" stroke-linejoin="round"><polygon points="553.5,217 865.3,397 865.3,407 553.5,227" fill="#4a0d0f"/><polygon points="1081.8,272 865.3,397 865.3,407 1081.8,282" fill="#2e0809"/><polygon points="770,92 1081.8,272 865.3,397 553.5,217" fill="#101115"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 92)">
+  <rect x="9" y="9" width="342" height="232" rx="7" fill="none" stroke="#2b2d35" stroke-width="1.5"/>
+  <circle cx="16" cy="16" r="7" fill="#050506" stroke="#c9a227" stroke-width="3"/><circle cx="344" cy="16" r="7" fill="#050506" stroke="#c9a227" stroke-width="3"/><circle cx="16" cy="234" r="7" fill="#050506" stroke="#c9a227" stroke-width="3"/><circle cx="344" cy="234" r="7" fill="#050506" stroke="#c9a227" stroke-width="3"/>
+  <g fill="none" stroke="#8f1416" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 70 H205"/><path d="M250 115 V138 L230 158 V176"/><path d="M225 115 V135 L205 155 H100 L80 175 V184"/><path d="M333 190 V100 L315 82 H302"/><path d="M40 110 V160 L60 180 V226 H185 L200 211"/><path d="M318 215 H275 L262 202"/><path d="M110 110 V140 H166"/><path d="M186 140 H196 L205 131 V115"/><path d="M318 40 H345 V150"/>
+  </g>
+  <circle cx="150" cy="70" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="205" cy="70" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="250" cy="115" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="225" cy="115" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="80" cy="184" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="333" cy="190" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="302" cy="82" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="40" cy="110" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="318" cy="215" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="110" cy="110" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="345" cy="150" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="318" cy="40" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/><circle cx="205" cy="115" r="5.5" fill="#101115" stroke="#d9b12e" stroke-width="3"/>
+  <g class="live"><path class="flow" d="M150 70 H205"/><path class="flow" d="M250 115 V138 L230 158 V176"/><path class="flow" d="M225 115 V135 L205 155 H100 L80 175 V184"/></g>
+  <g class="live"><circle cx="80" cy="195" r="62" fill="url(#pool)"/></g>
+  <circle cx="230" cy="200" r="46" fill="#000" opacity=".28"/>
+  <text x="26" y="242" class="silk">AUTOMATION CTRL · REV A</text>
+  <text x="100" y="212" class="silk">L1</text>
+</g>
+<!-- MCU board -->
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="700.7,157 804.6,217 804.6,222 700.7,162" fill="#0b646c"/><polygon points="873.9,177 804.6,217 804.6,222 873.9,182" fill="#08474d"/><polygon points="770,117 873.9,177 804.6,217 700.7,157" fill="#12909c"/></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="767.4,115.5 860.9,169.5 860.9,178.5 767.4,124.5" fill="#18191d"/><polygon points="867,166 860.9,169.5 860.9,178.5 867,175" fill="#0f1013"/><polygon points="773.5,112 867,166 860.9,169.5 767.4,115.5" fill="#2a2b31"/></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="712.8,125 733.6,137 733.6,150 712.8,138" fill="#b1b4be"/><polygon points="757.9,123 733.6,137 733.6,150 757.9,136" fill="#82858f"/><polygon points="737.1,111 757.9,123 733.6,137 712.8,125" fill="#e3e5eb"/></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="745.8,154 796,183 796,192 745.8,163" fill="#15161a"/><polygon points="830.6,163 796,183 796,192 830.6,172" fill="#0d0e11"/><polygon points="780.4,134 830.6,163 796,183 745.8,154" fill="#22232a"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 78)"><text x="70" y="77" class="chip">MCU</text><circle cx="68" cy="57" r="2.5" fill="#8b8e99"/></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="707.6,150 801.2,204 801.2,213 707.6,159" fill="#18191d"/><polygon points="807.2,200.5 801.2,204 801.2,213 807.2,209.5" fill="#0f1013"/><polygon points="713.7,146.5 807.2,200.5 801.2,204 707.6,150" fill="#2a2b31"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 87)"><circle cx="136" cy="70" r="4.5" fill="#4b4d16"/><g class="live"><circle cx="136" cy="70" r="5" fill="#E5EE4E" filter="url(#glow)"/></g></g>
+<!-- lamp -->
+<path d="M652 223.5 V229.5 A18.4 10.6 0 0 0 688.8 229.5 V223.5 Z" fill="#2b2c33" stroke="#000" stroke-opacity=".45"/><ellipse cx="670.4" cy="223.5" rx="18.4" ry="10.6" fill="#3d3e47" stroke="#000" stroke-opacity=".35" />
+<path d="M656.9 209.5 V223.5 A13.5 7.8 0 0 0 683.9 223.5 V209.5 A13.5 13.5 0 0 0 656.9 209.5 Z" fill="#5b4c12" stroke="#000" stroke-opacity=".45"/>
+<g class="live"><circle cx="670.4" cy="207.5" r="34" fill="#E5EE4E" opacity=".55" filter="url(#blur)"/><path d="M656.9 209.5 V223.5 A13.5 7.8 0 0 0 683.9 223.5 V209.5 A13.5 13.5 0 0 0 656.9 209.5 Z" fill="#f6fb8a" filter="url(#glow)"/></g>
+<!-- resistors -->
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="788.2,242.5 805.5,252.5 805.5,257.5 788.2,247.5" fill="#1f2025"/><polygon points="814.2,247.5 805.5,252.5 805.5,257.5 814.2,252.5" fill="#141518"/><polygon points="796.8,237.5 814.2,247.5 805.5,252.5 788.2,242.5" fill="#34353c"/></g>
+<!-- relay module -->
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="847.9,248 934.5,298 934.5,302 847.9,252" fill="#0d2548"/><polygon points="1012.5,253 934.5,298 934.5,302 1012.5,257" fill="#091a33"/><polygon points="925.9,203 1012.5,253 934.5,298 847.9,248" fill="#143566"/></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="865.3,202 925.9,237 925.9,283 865.3,248" fill="#2b72c2"/><polygon points="986.5,202 925.9,237 925.9,283 986.5,248" fill="#1b4f8c"/><polygon points="925.9,167 986.5,202 925.9,237 865.3,202" fill="#3f93ea"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 42)"><text x="222" y="78" class="relay">RELAY</text><text x="224" y="95" class="relay2">5V · 10A</text></g>
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="947.5,257.5 958.8,264 958.8,281 947.5,274.5" fill="#2f8a47"/><polygon points="998.6,241 958.8,264 958.8,281 998.6,258" fill="#1f6231"/><polygon points="987.4,234.5 998.6,241 958.8,264 947.5,257.5" fill="#45b862"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 71)"><circle cx="295.5" cy="49" r="3.6" fill="#d5d7de" stroke="#55585f"/><circle cx="295.5" cy="61" r="3.6" fill="#d5d7de" stroke="#55585f"/><circle cx="295.5" cy="73" r="3.6" fill="#d5d7de" stroke="#55585f"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 88)"><circle cx="296" cy="100" r="4.5" fill="#4a1011"/><g class="live"><circle cx="296" cy="100" r="5" fill="#ff4a4d" filter="url(#glow)"/></g></g>
+<!-- capacitor + power terminal -->
+<path d="M925.4 313.5 V339.5 A13.5 7.8 0 0 0 952.4 339.5 V313.5 Z" fill="url(#cap)" stroke="#000" stroke-opacity=".45"/><ellipse cx="938.9" cy="313.5" rx="13.5" ry="7.8" fill="#2f3038" stroke="#000" stroke-opacity=".35" />
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="842.7,350 868.7,365 868.7,383 842.7,368" fill="#2f8a47"/><polygon points="906.8,343 868.7,365 868.7,383 906.8,361" fill="#1f6231"/><polygon points="880.8,328 906.8,343 868.7,365 842.7,350" fill="#45b862"/></g>
+<g transform="matrix(0.866 0.5 -0.866 0.5 770 74)"><circle cx="333" cy="202" r="5" fill="#d5d7de" stroke="#55585f"/><circle cx="333" cy="222" r="5" fill="#d5d7de" stroke="#55585f"/></g>
+<!-- motor + fan -->
+<g stroke="#000" stroke-opacity="0.45" stroke-width="1" stroke-linejoin="round"><polygon points="740.6,301 796,333 796,339 740.6,307" fill="#1b1c21"/><polygon points="851.4,301 796,333 796,339 851.4,307" fill="#121316"/><polygon points="796,269 851.4,301 796,333 740.6,301" fill="#2c2d34"/></g>
+<path d="M764.2 251 V301 A31.8 18.4 0 0 0 827.8 301 V251 Z" fill="url(#metal)" stroke="#000" stroke-opacity=".45"/><ellipse cx="796" cy="251" rx="31.8" ry="18.4" fill="#cfd2da" stroke="#000" stroke-opacity=".35" />
+<path d="M790.5 237 V251 A5.5 3.2 0 0 0 801.5 251 V237 Z" fill="#8e919b" stroke="#000" stroke-opacity=".45"/><ellipse cx="796" cy="237" rx="5.5" ry="3.2" fill="#c4c7d0" stroke="#000" stroke-opacity=".35" />
+<g transform="matrix(0.866 0.5 -0.866 0.5 796 235)">
+  <g class="live"><circle r="47" fill="#E5EE4E" opacity=".1"/></g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;90;990;1200;1200" keyTimes="0;.08;.5;.76;1" calcMode="spline" keySplines=".5 0 1 1;0 0 1 1;0 0 .35 1;0 0 1 1" dur="4s" repeatCount="indefinite"/>
+    <path d="M0 0 C7 -15 36 -20 46 -6 C41 6 15 8 0 0 Z" fill="#E5EE4E" stroke="#757a14" stroke-width="1.2"/><g transform="rotate(120)"><path d="M0 0 C7 -15 36 -20 46 -6 C41 6 15 8 0 0 Z" fill="#E5EE4E" stroke="#757a14" stroke-width="1.2"/></g><g transform="rotate(240)"><path d="M0 0 C7 -15 36 -20 46 -6 C41 6 15 8 0 0 Z" fill="#E5EE4E" stroke="#757a14" stroke-width="1.2"/></g>
+    <circle r="8" fill="#22232a" stroke="#b9bcc6" stroke-width="2"/>
+  </g>
+</g><g>
+  <text x="50" y="64" class="k">BUILD 02</text>
+  <rect x="178" y="57" width="242" height="2" fill="#A21517" opacity=".75"/>
+  <text x="50" y="114" class="h">AUTOMATION</text>
+  <text x="50" y="158" class="h">&amp; CONTROL</text>
+  <text x="50" y="190" class="s">WORKBENCH EXPERIMENTS</text>
+  <g class="idle"><rect x="50" y="212" width="370" height="38" rx="8" fill="#0d0f12" stroke="#9da0ab" stroke-width="1.5"/><circle cx="72" cy="231" r="5.5" fill="#9da0ab"/><text x="90" y="236" class="p" fill="#9da0ab">RELAY OPEN · LOAD OFF</text></g>
+  <g class="live"><rect x="50" y="212" width="370" height="38" rx="8" fill="#E5EE4E"/><circle cx="72" cy="231" r="5.5" fill="#0A0A0A"/><text x="90" y="236" class="p" fill="#0A0A0A">RELAY CLOSED · LOAD ON</text></g>
+  <rect x="50" y="270" width="102" height="46" rx="8" fill="#0e0f13" stroke="#30323a" stroke-width="1.5"/><text x="101" y="298" text-anchor="middle" class="c" fill="#a5a8b3">MCU</text><path d="M159 293 h18 m-6 -5 l6 5 l-6 5" fill="none" stroke="#6a6d78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g class="live" style="animation-delay:0s"><rect x="50" y="270" width="102" height="46" rx="8" fill="#141008" stroke="#E5EE4E" stroke-width="2"/><text x="101" y="298" text-anchor="middle" class="c" fill="#fff">MCU</text></g><rect x="184" y="270" width="102" height="46" rx="8" fill="#0e0f13" stroke="#30323a" stroke-width="1.5"/><text x="235" y="298" text-anchor="middle" class="c" fill="#a5a8b3">RELAY</text><path d="M293 293 h18 m-6 -5 l6 5 l-6 5" fill="none" stroke="#6a6d78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g class="live" style="animation-delay:0.1s"><rect x="184" y="270" width="102" height="46" rx="8" fill="#141008" stroke="#E5EE4E" stroke-width="2"/><text x="235" y="298" text-anchor="middle" class="c" fill="#fff">RELAY</text></g><rect x="318" y="270" width="102" height="46" rx="8" fill="#0e0f13" stroke="#30323a" stroke-width="1.5"/><text x="369" y="298" text-anchor="middle" class="c" fill="#a5a8b3">LOAD</text><g class="live" style="animation-delay:0.3s"><rect x="318" y="270" width="102" height="46" rx="8" fill="#141008" stroke="#E5EE4E" stroke-width="2"/><text x="369" y="298" text-anchor="middle" class="c" fill="#fff">LOAD</text></g>
+  <rect x="50" y="338" width="370" height="102" rx="8" fill="#0b0c0f" stroke="#26282f" stroke-width="1.5"/>
+  <g transform="translate(108 352)">
+    <text x="-44" y="24" class="m" fill="#ECBDD8">D7</text><text x="-44" y="62" class="m" fill="#E5EE4E">RPM</text>
+    <path d="M0 30 H298 M0 68 H298" stroke="#22242a" stroke-width="1" stroke-dasharray="3 5"/>
+    <path d="M0 30 V8 H149 V30 H298" fill="none" stroke="#ECBDD8" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M0 68 C11.9 68 14.9 46 29.8 46 H149 C178.8 46 190.7 68 226.5 68 H298" fill="none" stroke="#E5EE4E" stroke-width="2.5"/>
+    <g><animateTransform attributeName="transform" type="translate" from="0 0" to="298 0" dur="4s" repeatCount="indefinite"/><line x1="0" y1="-5" x2="0" y2="79" stroke="#E5EE4E" stroke-width="2"/><circle cx="0" cy="-5" r="3" fill="#E5EE4E"/></g>
+  </g>
+</g>
+</g>
+<rect x="1" y="1" width="1198" height="478" rx="14" fill="none" stroke="#A21517" stroke-opacity=".8" stroke-width="2"/>
+</svg>
